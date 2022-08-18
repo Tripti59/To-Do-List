@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 30, 30);
+    min-height: 100vh;
+}
+
+header{
+     padding: 2rem 1rem;
+     width: 100%;
+     margin:0 auto;
+     max-width: 750px;
+}
+
+header h1{
+    font-family: cursive;
+    font-size:4rem ;
+    font-weight: 450;
+    color: rgb(78, 242, 242);
+    margin-bottom: 1.5rem;
+    width:75%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.add-task{
+    display: flex;
+    flex-direction: row;
+}
+input, button{
+    border:none;
+    outline: none;
+}
+.input{
+    box-sizing: border-box;
+    background-color: rgba(70, 69, 69, 0.797);
+    margin-right: 0%;
+    color:rgb(234, 210, 221);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-size: 1.3rem;
+    width: 88.5%;
+}
+.add-button{
+    background:none;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: rgb(9, 159, 47);
+    padding: 0.75rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.add-button:hover{
+    opacity: 0.6;
+}
+.task-list h2{
+    font-family: cursive;
+    font-size:2.5rem ;
+    font-weight: 450;
+    color: rgb(78, 242, 242);
+    margin: 3rem 85% 1.5rem 15%;  
+}
+.tasks{
+    display: flex;
+    flex-direction:row;
+    background-color: rgba(90, 88, 88, 0.797);
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+    width: 80vw;
+}
+
+.new-task{
+    box-sizing: border-box;
+    margin-right: 0%;
+    color:rgb(239, 234, 110);
+    padding: 0.75rem;
+    font-size: 1.3rem;
+}
+.X{
+    background:none;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: crimson;
+    padding-right: 1rem; 
+    font-weight: 700;
+    cursor: pointer; 
+}
+.X:hover{
+    opacity: 0.6;
+}
